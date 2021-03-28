@@ -7,6 +7,7 @@
         ".rscript",
         ".robots",
         ".rs",
-        ".rosc"
+        ".rosc",
+        ".roboscript"
     ]
 }
