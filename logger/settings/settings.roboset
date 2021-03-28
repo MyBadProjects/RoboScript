@@ -1,0 +1,15 @@
+;
+; Logger settings
+;   These control the loggers default setting
+;   INI is easy and compact to use and read so it is used
+;       + INI accepts comments
+;
+
+[log.settings]
+name="logs-%(time)s.log"
+level=1
+
+[log.output]
+log="Log:\n"
+warn="Warning:\n"
+error="ERROR:\     "

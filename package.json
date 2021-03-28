@@ -1,0 +1,19 @@
+{
+  "name": "roboscript",
+  "version": "1.0.0",
+  "description": "This is a basic scripting language based off Robot.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Test Command && exit 1"
+  },
+  "keywords": [
+    "scripting"
+  ],
+  "author": "MyBadProjects",
+  "license": "ISC",
+  "dependencies": {
+    "ini": "^2.0.0",
+    "robotjs": "^0.6.0",
+    "screenshot-desktop": "^1.12.3"
+  }
+}
