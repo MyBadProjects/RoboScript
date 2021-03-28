@@ -1,14 +1,14 @@
-const robotjs = require('robotjs')
+const robotjs = require('robotjs');
 module.exports = {
     name : "mouseToggleMiddle",
 
     execute : function(Line) {
         if (`${Line}`.toLocaleLowerCase().endsWith('true')){
-            robotjs.mouseToggle('up','middle')
+            robotjs.mouseToggle('up','middle');
         } else if (`${Line}`.toLowerCase().endsWith('false')){
-            robotjs.mouseToggle('down','middle')
+            robotjs.mouseToggle('down','middle');
         } else {
-            console.error('Invalid mode!')
-        }
+            console.error('Invalid mode!');
+        };
     }
-}
+};

@@ -1,4 +1,4 @@
-const robotjs = require('robotjs')
+const robotjs = require('robotjs');
 module.exports = {
     name : "keyWrite",
 
@@ -8,7 +8,7 @@ module.exports = {
             `${Line}`.length
             -
             `${Line}`.toLowerCase().replace('keywrite ','').length
-            )
-        robotjs.typeString(formatted)
+            );
+        robotjs.typeString(formatted);
     }
-}
+};

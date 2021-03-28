@@ -1,11 +1,11 @@
-const screenShot = require('screenshot-desktop')
+const screenShot = require('screenshot-desktop');
 module.exports = {
     name: "screenShot",
 
     execute: function (Line) {
-        // Create and save screen-shot
+        `${Line}`.toLowerCase().replace('screenshot ','');
         screenShot({ 
-            filename: `screen-capture-${Date.now()}.bmp` 
-        })
+            filename: `${`${Line}`.toLowerCase().replace('screenshot ','')}\\screen-capture-${Date.now()}.bmp` 
+        });
     }
-}
+};

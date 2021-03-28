@@ -6,6 +6,7 @@
 ;
 
 [log.settings]
+location=script_logs\
 name="logs-%(time)s.log"
 level=1
 

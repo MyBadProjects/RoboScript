@@ -1,8 +1,8 @@
-const robotjs = require('robotjs')
+const robotjs = require('robotjs');
 module.exports = {
     name : "doubleRightMouseClick",
 
     execute : function(Line) {
-        robotjs.mouseClick('right', true)
+        robotjs.mouseClick('right', true);
     }
-}
+};
